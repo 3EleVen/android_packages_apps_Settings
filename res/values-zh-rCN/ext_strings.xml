@@ -115,4 +115,11 @@
     <string name="qs_datausage_title">数据使用情况</string>
     <string name="qs_datausage_daily">当日流量</string>
     <string name="qs_datausage_monthly">当月流量</string>
+    <string name="weather_title">天气</string>
+    <string name="weather_config_title">服务设置</string>
+    <string name="weather_config_summary"></string>
+    <string name="header_weather_title">下拉栏顶部天气</string>
+    <string name="header_weather_summary">开启顶部天气通知显示</string>
+    <string name="weather_icon_pack_title">设置图表包</string>
+    <string name="weather_icon_pack_note">提示\u003a 你可以通过搜索\"Chronus icons\"在应用商店下载图表包</string>
 </resources>
