@@ -87,7 +87,6 @@
     <string name="backup_transport_setting_label">更改备份提供商</string>
     <string name="backup_transport_title">选择备份提供商</string>
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
-    <!-- App Lock -->
     <string name="applock_title">应用锁</string>
     <string name="applock_locked">已锁定</string>
     <string name="applock_unlocked">未锁定</string>
@@ -120,6 +119,9 @@
     <string name="weather_config_summary"></string>
     <string name="header_weather_title">下拉栏顶部天气</string>
     <string name="header_weather_summary">开启顶部天气通知显示</string>
-    <string name="weather_icon_pack_title">设置图表包</string>
-    <string name="weather_icon_pack_note">提示\u003a 你可以通过搜索\"Chronus icons\"在应用商店下载图表包</string>
+    <string name="weather_icon_pack_title">天气状况图标包</string>
+    <string name="weather_icon_pack_note">提示\u003a 你可以通过搜索\"Chronus icons\"在应用商店下载图标包</string>
+    <string name="lockscreen_weather_title">锁屏天气</string>
+    <string name="lockscreen_weather_summary">锁屏显示当前天气状况与温度</string>
+    <string name="lockscreen_items_aod_info_title">此可见性配置也适用于环境显示</string>
 </resources>
