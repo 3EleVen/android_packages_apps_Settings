@@ -56,7 +56,7 @@ public class TopLevelSecurityEntryPreferenceController extends BasePreferenceCon
         if (appLockManager == null) {
             return summary;
         } else {
-            return summary + ", " + mContext.getText(R.string.applock_title);
+            return summary + "、 " + mContext.getText(R.string.applock_title);
         }
     }
 }

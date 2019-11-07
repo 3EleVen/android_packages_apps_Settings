@@ -106,4 +106,6 @@
         <item quantity="other">%d 个应用程序已锁定</item>
     </plurals>
 
+    <string name="three_finger_gesture">滑动截图</string>
+    <string name="three_finger_gesture_summary">向下滑动三个手指截图</string>
 </resources>
