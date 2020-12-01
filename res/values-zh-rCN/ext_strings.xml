@@ -108,4 +108,7 @@
 
     <string name="three_finger_gesture">滑动截图</string>
     <string name="three_finger_gesture_summary">向下滑动三个手指截图</string>
+    <string name="sucess_vib_title">解锁震动</string>
+    <string name="sucess_vib_summary">生物信息解锁成功时震动提示</string>
+
 </resources>
