@@ -42,22 +42,14 @@ public class TopLevelSecurityEntryPreferenceController extends BasePreferenceCon
                 Utils.getFingerprintManagerOrNull(mContext);
         final FaceManager faceManager =
                 Utils.getFaceManagerOrNull(mContext);
-<<<<<<< HEAD
-        if (faceManager != null && faceManager.isHardwareDetected()) {
-            return mContext.getText(R.string.security_dashboard_summary_face);
-        } else if (fpm != null && fpm.isHardwareDetected()) {
-            return mContext.getText(R.string.security_dashboard_summary);
-=======
         final AppLockManager appLockManager =
                 Utils.getAppLockManager(mContext);
         CharSequence summary = null;
-        if (fpm != null && fpm.isHardwareDetected() && FaceUtils.isFaceUnlockSupported()) {
-            summary = mContext.getText(R.string.security_dashboard_summary_face_and_fingerprint);
+
+        if (faceManager != null && faceManager.isHardwareDetected()) {
+            summary = mContext.getText(R.string.security_dashboard_summary_face);
         } else if (fpm != null && fpm.isHardwareDetected()) {
             summary = mContext.getText(R.string.security_dashboard_summary);
-        } else if (faceManager != null && faceManager.isHardwareDetected()) {
-            summary = mContext.getText(R.string.security_dashboard_summary_face);
->>>>>>> 2550fa87... Settings: Introduce Applock [2/3]
         } else {
             summary = mContext.getText(R.string.security_dashboard_summary_no_fingerprint);
         }
