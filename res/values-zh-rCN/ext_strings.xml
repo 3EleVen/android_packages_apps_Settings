@@ -110,5 +110,7 @@
     <string name="three_finger_gesture_summary">向下滑动三个手指截图</string>
     <string name="sucess_vib_title">解锁震动</string>
     <string name="sucess_vib_summary">生物信息解锁成功时震动提示</string>
+    <string name="enable_blurs_on_windows_title">开启模糊特效</string>
+    <string name="enable_blurs_on_windows_summary">特定界面中开启模糊特效（需重启）</string>
 
 </resources>
