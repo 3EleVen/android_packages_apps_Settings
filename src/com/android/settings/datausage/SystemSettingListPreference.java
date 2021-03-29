@@ -14,11 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.settings.rr.Preferences;
+package com.android.settings.datausage;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import com.android.settings.datausage.ListPreference;
+import com.android.settings.datausage.SystemSettingsStore;
 
 public class SystemSettingListPreference extends ListPreference {
 
