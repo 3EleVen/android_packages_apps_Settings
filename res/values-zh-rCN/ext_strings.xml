@@ -93,9 +93,14 @@
     <string name="applock_unlocked">未锁定</string>
     <string name="applock_locked_apps">已锁定的应用</string>
     <string name="applock_unlocked_apps">未锁定的应用</string>
-    <string name="applock_show_only_on_wake">仅验证一次</string>
-    <string name="applock_show_only_on_wake_on_summary">一旦验证成功，应用程序将保持解锁状态，直到屏幕关闭</string>
-    <string name="applock_show_only_on_wake_off_summary">应用程序退出15秒后将会重新锁定</string>
+    <string name="applock_lock_after_title">App锁定</string>
+    <string name="applock_lock_after_instantly">立即</string>
+    <string name="applock_lock_after_15_seconds">15秒后</string>
+    <string name="applock_lock_after_screen_off">锁屏后</string>
+    <string name="applock_lock_after_summary">超时后App将会重新被锁定</string>
+    <string name="applock_lock_after_instantly_summary">App关闭后将会立即被重新锁定</string>
+    <string name="applock_lock_after_15_seconds_summary">App将会在被关闭后15秒被重新锁定</string>
+    <string name="applock_lock_after_screen_off_summary">App将会在锁屏后被重新锁定</string>
     <string name="applock_notification_info">应用程序锁定时是否显示通知内容</string>
     <string name="applock_show_notif">显示通知内容</string>
     <string name="applock_hide_notif">隐藏通知内容</string>
