@@ -177,6 +177,14 @@
         android:ringtoneType="alarm"
         android:order="-80"/>
 
+    <com.android.settings.datausage.SystemSettingListPreference
+      android:key="flashlight_on_call"
+      android:title="@string/flashlight_on_call_title"
+      android:summary="%s"
+      android:entries="@array/flashlight_on_call_entries"
+      android:entryValues="@array/flashlight_on_call_values"
+      android:defaultValue="0" />
+
     <!-- Other sounds -->
     <PreferenceCategory
           android:key="other_sounds_and_vibrations_category"

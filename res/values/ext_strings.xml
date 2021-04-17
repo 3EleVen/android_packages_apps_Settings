@@ -204,4 +204,11 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
     <string name="face_redo_confirm_btn">Redo</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_not_dnd">Only in ringer mode</string>
+    <string name="flashlight_on_call_dnd">Only in DND mode</string>
+    <string name="flashlight_on_call_always">Always</string>
 </resources>
