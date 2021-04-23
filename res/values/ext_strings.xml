@@ -205,10 +205,6 @@
     <string name="face_redo_confirm_btn">Redo</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
 
-    <string name="dot_data_used"><![CDATA[<font color="%1$s">●&#32;</font>]]>‎‎ ‎%2$s data used</string>
-    <string name="data_usage_title">Data Usage</string>
-    <string name="data_usage_summary">Quickly check your mobile data usage</string>
-
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Blink Flashlight for call</string>
     <string name="flashlight_on_call_disabled">Disabled</string>

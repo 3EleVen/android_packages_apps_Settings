@@ -126,9 +126,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">锁屏 、指纹 、面部解锁</string>
     <string name="face_redo_confirm_btn">重置</string>
     <string name="face_redo_warning_msg">是否移除现有面部数据并创建一个新的?</string>
-    <string name="dot_data_used"><![CDATA[<font color="%1$s">●&#32;</font>]]>‎‎ ‎%2$s 数据已使用</string>
-    <string name="data_usage_title">数据信息</string>
-    <string name="data_usage_summary">快速查看手机流量使用信息</string>
     <string name="flashlight_on_call_title">来电闪光灯</string>
     <string name="flashlight_on_call_disabled">关闭</string>
     <string name="flashlight_on_call_not_dnd">仅铃声模式开启</string>
