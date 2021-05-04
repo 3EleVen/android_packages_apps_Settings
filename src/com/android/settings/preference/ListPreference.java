@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.datausage;
+package com.android.settings.preference;
 
 import android.content.Context;
 import android.text.TextUtils;

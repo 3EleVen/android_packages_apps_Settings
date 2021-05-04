@@ -13,18 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.datausage;
+
+package com.android.settings.preference;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;
 import android.provider.Settings;
 
-public class SystemSettingsStore extends androidx.preference.PreferenceDataStore
-        implements PreferenceDataStore  {
+public class GlobalSettingsStore extends androidx.preference.PreferenceDataStore
+        implements PreferenceDataStore {
 
     private ContentResolver mContentResolver;
 
-    public SystemSettingsStore(ContentResolver contentResolver) {
+    public GlobalSettingsStore(ContentResolver contentResolver) {
         mContentResolver = contentResolver;
     }
 
@@ -33,19 +34,19 @@ public class SystemSettingsStore extends androidx.preference.PreferenceDataStore
     }
 
     public float getFloat(String key, float defValue) {
-        return Settings.System.getFloat(mContentResolver, key, defValue);
+        return Settings.Global.getFloat(mContentResolver, key, defValue);
     }
 
     public int getInt(String key, int defValue) {
-        return Settings.System.getInt(mContentResolver, key, defValue);
+        return Settings.Global.getInt(mContentResolver, key, defValue);
     }
 
     public long getLong(String key, long defValue) {
-        return Settings.System.getLong(mContentResolver, key, defValue);
+        return Settings.Global.getLong(mContentResolver, key, defValue);
     }
 
     public String getString(String key, String defValue) {
-        String result = Settings.System.getString(mContentResolver, key);
+        String result = Settings.Global.getString(mContentResolver, key);
         return result == null ? defValue : result;
     }
 
@@ -54,19 +55,19 @@ public class SystemSettingsStore extends androidx.preference.PreferenceDataStore
     }
 
     public void putFloat(String key, float value) {
-        Settings.System.putFloat(mContentResolver, key, value);
+        Settings.Global.putFloat(mContentResolver, key, value);
     }
 
     public void putInt(String key, int value) {
-        Settings.System.putInt(mContentResolver, key, value);
+        Settings.Global.putInt(mContentResolver, key, value);
     }
 
     public void putLong(String key, long value) {
-        Settings.System.putLong(mContentResolver, key, value);
+        Settings.Global.putLong(mContentResolver, key, value);
     }
 
     public void putString(String key, String value) {
-        Settings.System.putString(mContentResolver, key, value);
+        Settings.Global.putString(mContentResolver, key, value);
     }
 
 }

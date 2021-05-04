@@ -177,7 +177,7 @@
         android:ringtoneType="alarm"
         android:order="-80"/>
 
-    <com.android.settings.datausage.SystemSettingListPreference
+    <com.android.settings.preference.SystemSettingListPreference
       android:key="flashlight_on_call"
       android:title="@string/flashlight_on_call_title"
       android:summary="%s"
