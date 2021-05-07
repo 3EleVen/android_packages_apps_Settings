@@ -214,6 +214,14 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+    <com.android.settings.preference.SystemSettingListPreference
+        android:key="flashlight_on_call"
+        android:title="@string/flashlight_on_call_title"
+        android:summary="%s"
+        android:entries="@array/flashlight_on_call_entries"
+        android:entryValues="@array/flashlight_on_call_values"
+        android:defaultValue="0" />
+
     <com.android.settings.preference.SystemSettingSwitchPreference
         android:key="status_bar_show_lyric"
         android:title="@string/status_bar_show_lyric_title"
@@ -245,8 +253,7 @@
             android:max="10000"
             android:defaultValue="3000"
             interval="100"
-            unitsLeft=""
-            unitsRight="ms" />
+            settings:units="@string/unit_milliseconds" />
     </PreferenceCategory>
 
 </PreferenceScreen>

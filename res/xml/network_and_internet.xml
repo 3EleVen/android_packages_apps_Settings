@@ -53,7 +53,7 @@
         settings:useAdminDisabledSummary="true" />
 
     <!-- QS Header data usage -->
-    <com.android.settings.datausage.SystemSettingListPreference
+    <com.android.settings.preference.SystemSettingListPreference
         android:key="qs_datausage"
         android:icon="@drawable/ic_data_usage_wifi"
         android:title="@string/qs_datausage_title"
