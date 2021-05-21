@@ -136,6 +136,10 @@
     <string name="ticker_animation_mode_scroll">滚动</string>
     <string name="ticker_tick_duration_title">预览持续时长</string>
     <string name="unit_milliseconds">毫秒</string>
+    <string name="screen_off_animation_title">屏幕关闭动画</string>
+    <string name="screen_off_animation_fade">简单淡入</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">比例</string>
     <string name="status_bar_show_lyric_title">状态栏歌词</string>
     <string name="status_bar_show_lyric_summary">在状态栏中显示歌词 (需要应用程序支持)</string>
     <string name="lyricticker_animation_mode_title">歌词呈现动画</string>
