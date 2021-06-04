@@ -235,6 +235,10 @@
     <string name="flashlight_on_call_dnd">Only in DND mode</string>
     <string name="flashlight_on_call_always">Always</string>
 
+    <!-- Per App Volume -->
+    <string name="show_app_volume_title">Show app volume</string>
+    <string name="show_app_volume_summary">Show app volume in volume panel</string>
+
     <!-- Network Traffic -->
     <string name="trafficsettings_title">Traffic Indicator</string>
     <string name="trafficsettings_summary">Statusbar/Header traffic indicator settings</string>
